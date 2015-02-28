@@ -1,0 +1,14 @@
+exportClasses(geneSignature)
+exportMethods(getDirect, getThresholds, getGenes, getNGenes,
+	setGeneSignature, setDirect, setThresholds, setGenes)
+
+exportMethods(ensembleAdjustable, analysisPipeline)
+
+## Needed from Biobase
+importFrom(Biobase,exprs)
+importFrom(Biobase,'exprs<-')
+importFrom(Biobase,pData)
+
+## Needed from survival
+importFrom(survival,coxph)
+importFrom(survival,Surv)
