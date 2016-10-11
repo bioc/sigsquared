@@ -37,8 +37,7 @@ gs <- setGeneSignature(g=new("geneSignature"), direct=c(1,1,1), genes=c("A", "B"
 mat <- matrix(rnorm(9, 0, 1), nrow=3)
 rownames(mat) <- c("A", "B", "C")
 posmat <- abs(mat)
-expset <- new("ExpressionSet")
-exprs(expset) <- mat
+expset <- new("ExpressionSet", exprs=mat)
 
 ## Apply geneSignature to matrices
 ensembleAdjustable(mat, gs)
