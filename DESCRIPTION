@@ -2,7 +2,7 @@ Package: sigsquared
 Type: Package
 Title: Gene signature generation for functionally validated signaling
         pathways
-Version: 1.26.0
+Version: 1.27.0
 Date: 2015-01-23
 Author: UnJin Lee
 Maintainer: UnJin Lee <unjin@uchicago.edu>
